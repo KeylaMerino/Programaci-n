@@ -1,8 +1,8 @@
 # Crear una matriz 3D para representar los datos de temperaturas
-# Supongamos 3 ciudades, 7 días de la semana y 4 semanas
+# Imaginemos 3 ciudades, 7 días de la semana y 4 semanas
 temperaturas = [[[0.0 for _ in range(7)] for _ in range(4)] for _ in range(3)]
 
-# Llenar la matriz con datos de temperaturas aleatorias (puedes modificar esto según tus necesidades)
+# Llenar la matriz con datos de temperaturas aleatorias 
 import random
 for ciudad in range(3):
     for semana in range(4):
